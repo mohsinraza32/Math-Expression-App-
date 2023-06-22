@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Math Expression App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="main">
+        <div class="input">
+    <form id="userForm">
+        Number1: <input type="number" id="num1">
+        <br>
+        <br>
+        Number2: <input type="number" id="num2">
+        <br>
+        <br>
+        <br>
+        <button class="btn" onclick="sum()" type="submit">Sum</button>
+        <button class="btn" onclick="subtract()" type="submit">Subtract</button>
+        <br>
+        <button class="btn"  onclick="Multiply()" type="submit">Multiply</button>
+        <button class="btn"  onclick="Divide()" type="submit">Divide</button>
+        <br>
+        <button class="btn"  onclick="Modulus()" type="submit">Modulus</button>
+       
+
+    </form>
+
+</div>
+<div class="output">
+    <h1 id="result"></h1>
+</div>
+</div>
+
+    <script src="app.js"></script>
+</body>
+</html>

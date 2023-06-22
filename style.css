@@ -1,0 +1,52 @@
+body{
+    background-color: burlywood;
+}
+
+.main{
+    background-color:cadetblue;
+      width: 300px;
+    height: 400px; 
+    text-align: center;
+     margin: 0 auto;
+    margin-top: 60px; 
+    border-radius: 20px;
+}
+
+.input{
+    padding-top: 30px;
+}
+.btn{
+    color: red;
+    width: 90px;
+    font-size: 14px;
+    font-family: sans-serif;
+    
+}
+.btn:hover{
+    background-color:chartreuse;
+    border: 2px solid white;
+    cursor: pointer;
+    
+}
+form {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+}
+
+ h1{
+    color: red;
+    background-color: white;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sans-serif;
+    border: 2ps solid white;
+    border-radius: 20px;
+    
+}
+.output{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 50px;
+}
